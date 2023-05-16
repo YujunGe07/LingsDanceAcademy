@@ -1,0 +1,332 @@
+/* ---------------------------------- APPLY TO ALL ---------------------------------- */
+*{
+    margin:0;
+    padding:0;
+    font-family:'Inter','sans-serif';
+}
+
+.section-headline{
+    color:#4e4d4d;
+    text-align: center;
+    font-size:50px;
+    font-weight: 300;
+}
+
+section{
+    padding: 70px 0;
+}
+
+.line{
+    height:2px;
+    width:80px;
+    background-color: #746439;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom: 60px;
+}
+
+.row{
+    width:80%;
+    margin:0 auto;
+    overflow:auto;
+}
+
+.one-of-two{
+    width:50%;
+    float:left;
+}
+
+.one-of-three{
+    width:33.3%;
+    float:left;
+}
+
+.one-of-four{
+    width:25%;
+    float:left;
+}
+
+.two-of-three{
+    width:66.66%;
+    float:left;
+}
+
+.three-of-four{
+    width:75%;
+    float: left;
+}
+
+
+/* ------------------------------------- HEADER ------------------------------------- */
+
+#header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("../Images/show/covergroup.JPG");
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    position:relative;
+}
+
+#header p{
+    position:absolute;
+    top:50%;
+    left:18%;
+    transform: translate(0,-50%);
+    font-size: 25px;
+}
+
+#header nav{
+    position:fixed;
+    width:100%;
+    z-index: 2;
+}
+
+#header nav img{
+    width: 100px;
+    padding-left:120px;
+    padding-top:25px;
+}
+
+#header nav .right{
+    font-size: 20px;;
+    list-style:none;
+    position:absolute;
+    right:5%;
+    top:50%;
+    transform:translate(0,-50%);
+}
+
+#header nav .rightL{
+    float:left;
+    margin: 0 20px;
+}
+
+#header nav a{
+    color:white;
+    text-decoration:none;
+    font-weight: 300;
+
+    background: linear-gradient(currentColor 0 0) 
+    bottom /var(--d, 0) 2px 
+    no-repeat;
+    transition:0.5s;
+}
+
+#header nav a:hover {
+    --d: 90%;
+  }
+
+#header .headline-container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+#header .headline-container h1{
+    font-size:90px;
+    font: weight 700px;;
+}
+
+#header .headline-container h2{
+    margin-top:15px;
+    font-size:40px;
+    font-weight: 200;
+    margin-bottom:45px;
+}
+
+#header .headline-container h3{
+    color:white;
+    text-decoration:none;
+    border:1px solid white;
+    font-size:25px;
+    font-weight: 300;
+    padding:5px 15px;
+    display: inline-block;
+
+}
+
+/* ------------------------------------- STEPS ------------------------------------- */
+#steps{
+    background-color: white;
+}
+
+#steps img{
+    float:right;
+    height:400px;
+    
+}
+
+#steps .circle{
+    border:1px solid #746439;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    position:relative;
+    float:left;
+    margin-right:13px;
+}
+
+#steps .circle p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:20px;
+    color:#342b10;
+    font-weight: 300;
+}
+
+#steps .steps-container{
+    overflow: auto;
+    margin-bottom:70px;
+    margin-left:50px;
+}
+
+#steps h2 .t{
+    font-size:25px;
+}
+
+#steps .steps-description{
+    font-weight: 300;
+}
+
+/* ------------------------------------- STATS ------------------------------------- */
+
+#stats{
+    background-image:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../Images/show/group.JPG");
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding:150px 0;
+}
+
+#stats i{
+    color:#549dc5;
+    font-size:70px;
+    margin-bottom: 15px;
+}
+
+#stats h3, #stats p{
+    color:white;
+}
+
+#stats p{
+    font-weight: 700;
+    font-size: 85px;
+}
+
+#stats h3{
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* ------------------------------------- Benefits ------------------------------------- */
+
+
+#Benefits{
+    text-align: center;
+    background-color:#f4f4f4;
+    border-color: #ceadc8;
+    border-width: 20px;
+    border-style: solid;
+}
+
+#Benefits i{
+    font-size:45px;
+    color:#4b4d4d;
+}
+
+#Benefits h3{
+    font-size: 30px;
+    color:#76688c;
+    margin:20px 0;
+}
+
+#Benefits p{
+    font-size:15px;
+    font-weight: 300;
+}
+
+#Benefits img{
+    border-bottom:1px solid lightgrey;
+    margin-top:100px;
+    width:80%;
+}
+
+#Benefits h4{
+    margin:20px 0;
+    font-size:30px;
+    color:#76688c;
+}
+
+#Benefits a{
+    background-color:#ceadc8;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    padding:25px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    margin-top:30px;
+    width:300px;
+}
+
+#Benefits a:hover{
+    background-color: #76688c;
+    transition:0.5s;
+}
+
+/* ------------------------------------- Class ------------------------------------- */
+#Class .container {
+    position: relative;
+  }
+  
+  #Class .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  #Class .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #Class .container:hover .image {
+    opacity: 0.3;
+    margin-right: 20px;
+  }
+  
+  #Class .container:hover .middle {
+    opacity: 1;
+  }
+  
+  #Class .text {
+    background-color: #8585a9;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  #Class a{
+    color: white;
+    text-decoration: none;
+  }
+
+#Class p{
+    margin-left: 100px;
+}
+
