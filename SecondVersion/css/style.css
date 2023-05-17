@@ -63,6 +63,12 @@ section{
     float: left;
 }
 
+.dark-background{
+    background-color:#273435;
+    transition: background-color 0.5s;
+}
+
+
 
 /* ------------------------------------- HEADER ------------------------------------- */
 
@@ -91,8 +97,9 @@ section{
 
 #header nav img{
     width: 100px;
+    height: 100px;
     padding-left:110px;
-    padding-top:25px;
+    padding-top:0px;
 }
 
 #header nav .right{
@@ -156,6 +163,10 @@ section{
 }
 
 /* ------------------------------------- About Us ------------------------------------- */
+
+#about{
+    background-color: #f5f5f5;
+}
 
 #about .section-headline{
     font-weight: 500;
@@ -266,12 +277,11 @@ section{
     height: 500px;
     position: relative;
     left: 170px;
-    z-index: 0;
+             
 }
 
 #Why .WhyContainer{
     position: relative;
-    
 }
 
 #Why .first{
@@ -306,6 +316,10 @@ section{
 }
 
 /* ------------------------------------- EVENT ------------------------------------- */
+
+#Event{
+    background-color: #f5f5f5;
+}
 
 #Event .flex-container{
     display: flex;
@@ -406,7 +420,135 @@ section{
     color: white;
 }
 
-/* ------------------------------------- VIDEOS ------------------------------------- */
 
 
 /* ------------------------------------- WEEKLY CLASSES ------------------------------------- */
+
+#classes .section-headline{
+    font-weight: 500;
+}
+
+#classes .flex-container{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+#classes .first{
+    background-color: #C1D8D8;
+    border-radius: 15px;
+    width: 30%;
+}
+
+#classes .second{
+    background-color: #E0EDEF;
+    border-radius: 15px;
+    width: 30%;
+}
+
+#classes .third{
+    background-color: #C7E1E5;
+    border-radius: 15px;
+    width: 30%;
+}
+
+#classes .flex-container h2{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+
+#classes .flex-container p{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+#classes .button a{
+    background-color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 15px 100px;
+    color:#185056;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+#classes .button a:hover{
+    background-color: var(--primary);
+    transition: 0.5s;
+    color: white;
+}
+
+/* ------------------------------------- OUR TEAM ------------------------------------- */
+
+#team .row{
+    position: relative;
+}
+
+#team img{
+    width: 100%;
+    height: 700px;
+   
+}
+
+#team .info{
+    position: absolute;
+    left: 630px;
+    top: 220px;
+    width: 520px;
+}
+
+#team .info h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#team .info p{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+#team .info a{
+    background-color: #f8bfb5;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 20px 30px;
+    color:black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#team .info a:hover{
+    background-color: #e09588;
+    transition: 0.5s;
+    color: white;
+}
+
+/* ------------------------------------- FOOTER ------------------------------------- */
+#footer{
+    background-color: #273435;
+    padding: 40px 0;
+    padding-top: 60px;
+}
+
+#footer a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+
+#footer li{
+    list-style: none;
+    float:left;
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#footer p{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
